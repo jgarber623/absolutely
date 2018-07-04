@@ -1,5 +1,5 @@
 module Absolutely
-  class Uri
+  class URI
     attr_accessor :base, :relative
 
     def initialize(base:, relative:)
