@@ -29,6 +29,8 @@ module Absolutely
     def to_absolute_uri
       return relative_uri.to_s if relative_uri.absolute?
 
+      base_uri.path = '/' if base_uri.path.empty?
+
       (base_uri + relative_uri).to_s
     end
   end
