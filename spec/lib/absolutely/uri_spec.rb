@@ -37,11 +37,5 @@ describe Absolutely::URI do
     it 'raises an InvalidURIError when invalid URI' do
       expect { described_class.new(base: base_uri, relative: 'http:') }.to raise_error(Absolutely::InvalidURIError)
     end
-
-    it 'raises an ArgumentError when not a relative URI' do
-      message = 'relative must be a relative URI (e.g. /example)'
-
-      expect { described_class.new(base: base_uri, relative: base_uri) }.to raise_error(Absolutely::ArgumentError, message)
-    end
   end
 end

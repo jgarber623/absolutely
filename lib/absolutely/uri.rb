@@ -10,7 +10,8 @@ module Absolutely
       @relative = relative
 
       raise ArgumentError, 'base must be an absolute URI (e.g. https://example.com)' unless base_uri.absolute?
-      raise ArgumentError, 'relative must be a relative URI (e.g. /example)' unless relative_uri.relative?
+
+      relative_uri
     end
 
     def base_uri
@@ -26,6 +27,8 @@ module Absolutely
     end
 
     def to_absolute_uri
+      return relative_uri.to_s if relative_uri.absolute?
+
       (base_uri + relative_uri).to_s
     end
   end

@@ -8,7 +8,8 @@ describe Absolutely, '.to_absolute_uri' do
     ['https://example.com/foo/bar', '../../../../biz', 'https://example.com/biz'],
     ['https://example.com', '/foo?query=bar', 'https://example.com/foo?query=bar'],
     ['https://example.com', '?query=bar', 'https://example.com?query=bar'],
-    ['https://🔥💀.com', '/🚜', 'https://🔥💀.com/🚜']
+    ['https://🔥💀.com', '/🚜', 'https://🔥💀.com/🚜'],
+    ['https://example.com', 'https://example.com/foo', 'https://example.com/foo']
   ]
 
   examples.each do |base, relative, result|
