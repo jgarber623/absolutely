@@ -62,7 +62,7 @@ uri = Absolutely.to_absolute_uri(base: 'https://example.com', relative: '/foo')
 puts uri # returns String: 'https://example.com/foo'
 ```
 
-Note that if the value passed to `relative` is determined to be an absolute URI, Absolutely will return the value of `relative` regardless of the value passed to `base`:
+Note that if the value passed as `relative` is determined to be an absolute URI, Absolutely will return the value of `relative` regardless of the value passed as `base`:
 
 ```ruby
 require 'absolutely'
