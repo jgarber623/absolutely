@@ -69,7 +69,7 @@ require 'absolutely'
 
 uri = Absolute.to_absolute_uri(base: 'https://example.com', relative: 'https://example.com/foo')
 
-puts uri # returns String: 'http://example.com/foo'
+puts uri # returns String: 'https://example.com/foo'
 ```
 
 ### Advanced Usage
