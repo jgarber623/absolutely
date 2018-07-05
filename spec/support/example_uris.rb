@@ -13,6 +13,12 @@ module ExampleURIs
     ['https://example.com', 'https://example.com/foo', 'https://example.com/foo'],
 
     # php-mf2 test URIs
+    ['http://a/b/c/d;p?q', './g', 'http://a/b/c/g'],
+    ['http://a/b/c/d;p?q', './g/', 'http://a/b/c/g/'],
+    ['http://a/b/c/d;p?q', '..', 'http://a/b/'],
+    ['http://example.com', '//cdn.example.org/thing/asset.css', 'http://cdn.example.org/thing/asset.css'],
+    ['https://example.com', '//cdn.example.org/thing/asset.css', 'https://cdn.example.org/thing/asset.css'],
+    ['http://user:@www.example.com', 'server.php', 'http://user:@www.example.com/server.php'],
     ['http://example.com', 'http://example.com', 'http://example.com'],
     ['http://example.com', '', 'http://example.com/'],
     ['http://example.com/something', '', 'http://example.com/something'],
@@ -42,6 +48,32 @@ module ExampleURIs
     ['http://www.example.com/pathOne/index.php', './jquery.js', 'http://www.example.com/pathOne/jquery.js'],
     ['http://www.example.com/pathOne/', './jquery.js', 'http://www.example.com/pathOne/jquery.js'],
     ['http://www.example.com/pathOne', './jquery.js', 'http://www.example.com/jquery.js'],
-    ['http://example.com:8080/index.html', '/photo.jpg', 'http://example.com:8080/photo.jpg']
+    ['http://example.com:8080/index.html', '/photo.jpg', 'http://example.com:8080/photo.jpg'],
+
+    # Test cases from RFC
+    # http://tools.ietf.org/html/rfc3986#section-5.4
+    ['http://a/b/c/d;p?q', 'g:h', 'g:h'],
+    ['http://a/b/c/d;p?q', 'g', 'http://a/b/c/g'],
+    ['http://a/b/c/d;p?q', './g', 'http://a/b/c/g'],
+    ['http://a/b/c/d;p?q', 'g/', 'http://a/b/c/g/'],
+    ['http://a/b/c/d;p?q', '/g', 'http://a/g'],
+    ['http://a/b/c/d;p?q', '//g', 'http://g'],
+    ['http://a/b/c/d;p?q', '?y', 'http://a/b/c/d;p?y'],
+    ['http://a/b/c/d;p?q', 'g?y', 'http://a/b/c/g?y'],
+    ['http://a/b/c/d;p?q', '#s', 'http://a/b/c/d;p?q#s'],
+    ['http://a/b/c/d;p?q', 'g#s', 'http://a/b/c/g#s'],
+    ['http://a/b/c/d;p?q', 'g?y#s', 'http://a/b/c/g?y#s'],
+    ['http://a/b/c/d;p?q', ';x', 'http://a/b/c/;x'],
+    ['http://a/b/c/d;p?q', 'g;x', 'http://a/b/c/g;x'],
+    ['http://a/b/c/d;p?q', 'g;x?y#s', 'http://a/b/c/g;x?y#s'],
+    ['http://a/b/c/d;p?q', '', 'http://a/b/c/d;p?q'],
+    ['http://a/b/c/d;p?q', '.', 'http://a/b/c/'],
+    ['http://a/b/c/d;p?q', './', 'http://a/b/c/'],
+    ['http://a/b/c/d;p?q', '..', 'http://a/b/'],
+    ['http://a/b/c/d;p?q', '../', 'http://a/b/'],
+    ['http://a/b/c/d;p?q', '../g', 'http://a/b/g'],
+    ['http://a/b/c/d;p?q', '../..', 'http://a/'],
+    ['http://a/b/c/d;p?q', '../../', 'http://a/'],
+    ['http://a/b/c/d;p?q', '../../g', 'http://a/g']
   ].freeze
 end
