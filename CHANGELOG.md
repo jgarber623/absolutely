@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 / 2018-11-11
+
+- Liberalizes dependency constraints ([e0bc056](https://github.com/jgarber623/absolutely/commit/e0bc056)).
+
 ## 1.1.0 / 2018-07-05
 
 - Sets `base` URI's path to `/` if empty to conform with browser behavior ([b0f657a](https://github.com/jgarber623/absolutely/commit/b0f657a)).
