@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2 / 2019-01-03
+
+- Expand supported Ruby versions to include 2.6 ([866d58a](https://github.com/jgarber623/absolutely/commit/866d58a)).
+
 ## 1.1.1 / 2018-11-11
 
 - Liberalizes dependency constraints ([e0bc056](https://github.com/jgarber623/absolutely/commit/e0bc056)).
