@@ -28,5 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '~> 0.16.1'
   spec.add_development_dependency 'simplecov-console', '~> 0.4.2'
 
-  spec.add_runtime_dependency 'addressable', '~> 2.5'
+  spec.add_runtime_dependency 'addressable', '~> 2.6'
 end
