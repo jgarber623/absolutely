@@ -10,7 +10,7 @@ Metrics/LineLength:
   Enabled: false
 
 Naming/RescuedExceptionsVariableName:
-  PreferredName: error
+  PreferredName: exception
 
 Style/Documentation:
   Enabled: false

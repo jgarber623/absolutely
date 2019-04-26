@@ -16,14 +16,14 @@ module Absolutely
 
     def base_uri
       @base_uri ||= Addressable::URI.parse(base)
-    rescue Addressable::URI::InvalidURIError => error
-      raise InvalidURIError, error
+    rescue Addressable::URI::InvalidURIError => exception
+      raise InvalidURIError, exception
     end
 
     def relative_uri
       @relative_uri ||= Addressable::URI.parse(relative)
-    rescue Addressable::URI::InvalidURIError => error
-      raise InvalidURIError, error
+    rescue Addressable::URI::InvalidURIError => exception
+      raise InvalidURIError, exception
     end
 
     def to_absolute_uri
