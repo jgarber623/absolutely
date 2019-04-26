@@ -1,6 +1,6 @@
 module Absolutely
   class URI
-    attr_accessor :base, :relative
+    attr_reader :base, :relative
 
     def initialize(base:, relative:)
       raise ArgumentError, "base must be a String (given #{base.class.name})" unless base.is_a?(String)
