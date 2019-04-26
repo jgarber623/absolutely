@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0 / 2019-04-25
+
+- The `URI` class' `base` and `relative` methods are now read-only ([7879f78](https://github.com/jgarber623/absolutely/commit/7879f78)).
+- Add Reek and configuration ([fb60f9c](https://github.com/jgarber623/absolutely/commit/fb60f9c)).
+
 ## 1.1.2 / 2019-01-03
 
 - Expand supported Ruby versions to include 2.6 ([866d58a](https://github.com/jgarber623/absolutely/commit/866d58a)).
