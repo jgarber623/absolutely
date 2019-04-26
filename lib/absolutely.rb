@@ -1,7 +1,8 @@
 require 'addressable/uri'
 
 require 'absolutely/version'
-require 'absolutely/error'
+require 'absolutely/exceptions'
+
 require 'absolutely/uri'
 
 module Absolutely
