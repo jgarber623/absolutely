@@ -9,21 +9,20 @@ module Absolutely
       @base = base
       @relative = relative
 
-      raise ArgumentError, 'base must be an absolute URI (e.g. https://example.com)' unless base_uri.absolute?
-
+      base_uri
       relative_uri
+
+      raise ArgumentError, 'base must be an absolute URI (e.g. https://example.com)' unless base_uri.absolute?
+    rescue Addressable::URI::InvalidURIError => exception
+      raise InvalidURIError, exception
     end
 
     def base_uri
       @base_uri ||= Addressable::URI.parse(base)
-    rescue Addressable::URI::InvalidURIError => exception
-      raise InvalidURIError, exception
     end
 
     def relative_uri
       @relative_uri ||= Addressable::URI.parse(relative)
-    rescue Addressable::URI::InvalidURIError => exception
-      raise InvalidURIError, exception
     end
 
     def to_absolute_uri
