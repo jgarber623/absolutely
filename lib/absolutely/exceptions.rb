@@ -1,7 +1,7 @@
 module Absolutely
-  class Error < StandardError; end
+  class AbsolutelyError < StandardError; end
 
-  class ArgumentError < Error; end
+  class ArgumentError < AbsolutelyError; end
 
-  class InvalidURIError < Error; end
+  class InvalidURIError < AbsolutelyError; end
 end
