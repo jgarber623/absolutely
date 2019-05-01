@@ -7,9 +7,10 @@ require 'absolutely/uri'
 
 module Absolutely
   class << self
-    def to_absolute_uri(base:, relative:)
-      uri(base: base, relative: relative).to_absolute_uri
+    def to_abs(base:, relative:)
+      uri(base: base, relative: relative).to_abs
     end
+    alias_method :to_absolute_uri, :to_abs
 
     def uri(base:, relative:)
       URI.new(base: base, relative: relative)
