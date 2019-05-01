@@ -45,9 +45,9 @@ With Absolutely added to your project's `Gemfile` and installed, you may convert
 ```ruby
 require 'absolutely'
 
-uri = Absolutely.uri(base: 'https://example.com', relative: '/foo').to_absolute_uri
+uri = Absolutely.uri(base: 'https://example.com', relative: '/foo').to_abs
 
-puts uri # returns String: 'https://example.com/foo'
+puts uri # => String: 'https://example.com/foo'
 ```
 
 This example combines the supplied `base` value (`https://example.com`) and combines it with the supplied `relative` value (`/foo`), returning the string `https://example.com/foo`.
@@ -57,9 +57,9 @@ You may obtain the same results using this slightly shorter version:
 ```ruby
 require 'absolutely'
 
-uri = Absolutely.to_absolute_uri(base: 'https://example.com', relative: '/foo')
+uri = Absolutely.to_abs(base: 'https://example.com', relative: '/foo')
 
-puts uri # returns String: 'https://example.com/foo'
+puts uri # => 'https://example.com/foo'
 ```
 
 Note that if the value passed as `relative` is determined to be an absolute URI, Absolutely will return the value of `relative` regardless of the value passed as `base`:
@@ -67,9 +67,9 @@ Note that if the value passed as `relative` is determined to be an absolute URI,
 ```ruby
 require 'absolutely'
 
-uri = Absolute.to_absolute_uri(base: 'https://example.com', relative: 'https://example.com/foo')
+uri = Absolute.to_abs(base: 'https://example.com', relative: 'https://example.com/foo')
 
-puts uri # returns String: 'https://example.com/foo'
+puts uri # => 'https://example.com/foo'
 ```
 
 ### Advanced Usage
@@ -81,18 +81,18 @@ require 'absolutely'
 
 uri = Absolutely::URI.new(base: 'https://example.com', relative: '/foo')
 
-puts uri                 # returns Absolutely::URI
+puts uri              # => #<Absolutely::URI>
 
-puts uri.base            # returns String: 'https://example.com'
-puts uri.relative        # returns String: '/foo'
+puts uri.base         # => 'https://example.com'
+puts uri.relative     # => '/foo'
 
-puts uri.base_uri        # returns Addressable::URI
-puts uri.relative_uri    # returns Addressable::URI
+puts uri.base_uri     # => #<Addressable::URI URI:https://example.com>
+puts uri.relative_uri # => #<Addressable::URI URI:/foo>
 
-puts uri.to_absolute_uri # returns String: 'https://example.com/foo'
+puts uri.to_abs       # => 'https://example.com/foo'
 ```
 
-The `base_uri` and `relative_uri` methods return instances of `Addressable::URI` for convenience. For more on this class' available methods, see [the Addressable Ruby gem's source code](https://github.com/sporkmonger/addressable).
+For convenience, the `base_uri` and `relative_uri` methods return instances of the `Addressable::URI` class. For more on this class' available methods, see [the Addressable Ruby gem's source code](https://github.com/sporkmonger/addressable).
 
 ## Contributing
 
