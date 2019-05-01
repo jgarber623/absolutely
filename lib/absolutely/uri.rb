@@ -12,7 +12,7 @@ module Absolutely
       base_uri
       relative_uri
 
-      raise ArgumentError, 'base must be an absolute URI (e.g. https://example.com)' unless base_uri.absolute?
+      raise ArgumentError, 'base must be an absolute URL (e.g. https://example.com)' unless base_uri.absolute?
     rescue Addressable::URI::InvalidURIError => exception
       raise InvalidURIError, exception
     end

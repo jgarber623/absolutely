@@ -15,13 +15,13 @@ describe Absolutely::URI do
     end
 
     it 'raises an ArgumentError when not an absolute URI' do
-      message = 'base must be an absolute URI (e.g. https://example.com)'
+      message = 'base must be an absolute URL (e.g. https://example.com)'
 
       expect { described_class.new(base: relative_uri, relative: relative_uri) }.to raise_error(Absolutely::ArgumentError, message)
     end
 
     it 'raises an ArgumentError when a Git URI' do
-      message = 'base must be an absolute URI (e.g. https://example.com)'
+      message = 'base must be an absolute URL (e.g. https://example.com)'
 
       expect { described_class.new(base: 'git@github.com/jgarber623/absolutely', relative: relative_uri) }.to raise_error(Absolutely::ArgumentError, message)
     end
