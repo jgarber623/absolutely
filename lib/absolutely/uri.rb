@@ -11,6 +11,10 @@ module Absolutely
       raise ArgumentError, 'base must be an absolute URL (e.g. https://example.com)' unless base_uri.absolute?
     end
 
+    def inspect
+      format("#<#{self.class.name}:%#0x>", object_id)
+    end
+
     def to_abs
       return relative_uri.to_s if relative_uri.absolute?
 
