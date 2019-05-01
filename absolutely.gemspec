@@ -20,6 +20,11 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
+  spec.metadata = {
+    'bug_tracker_uri' => "#{spec.homepage}/issues",
+    'changelog_uri'   => "#{spec.homepage}/blob/v#{spec.version}/CHANGELOG.md"
+  }
+
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'reek', '~> 5.4'
   spec.add_development_dependency 'rspec', '~> 3.8'
