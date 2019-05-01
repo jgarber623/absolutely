@@ -1,6 +1,9 @@
 detectors:
   IrresponsibleModule:
     enabled: false
+  TooManyStatements:
+    exclude:
+      - Absolutely::URI#set_instance_vars
 
 exclude_paths:
   - vendor/

@@ -2,6 +2,10 @@ require:
   - rubocop-performance
   - rubocop-rspec
 
+Layout/AlignHash:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
 Metrics/BlockLength:
   Exclude:
     - spec/**/*.rb
@@ -11,6 +15,9 @@ Metrics/LineLength:
 
 Naming/RescuedExceptionsVariableName:
   PreferredName: exception
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
 
 Style/Documentation:
   Enabled: false
