@@ -1,6 +1,5 @@
 describe Absolutely::URI do
   let(:base_uri) { 'https://example.com' }
-
   let(:relative_uri) { '/foo' }
 
   context 'when base is invalid' do
