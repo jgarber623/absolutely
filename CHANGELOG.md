@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0 / 2019-05-01
+
+- Rename `to_absolute_uri` method to `to_abs` ([d14e33f](https://github.com/jgarber623/absolutely/commit/d14e33f)).
+- Add `inspect` instance method to `Absolutely::URI` ([e4e7e5a](https://github.com/jgarber623/absolutely/commit/e4e7e5a)).
+
 ## 2.0.0 / 2019-04-25
 
 - The `URI` class' `base` and `relative` methods are now read-only ([7879f78](https://github.com/jgarber623/absolutely/commit/7879f78)).
