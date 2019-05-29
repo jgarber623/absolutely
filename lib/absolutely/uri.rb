@@ -16,7 +16,7 @@ module Absolutely
     end
 
     def to_abs
-      return relative_uri.to_s if relative_uri.absolute?
+      return relative_uri.normalize.to_s if relative_uri.absolute?
 
       base_uri.path = base_uri.normalized_path
 
