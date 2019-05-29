@@ -10,6 +10,8 @@ module ExampleURIs
     ['https://example.com', '/foo?query=bar', 'https://example.com/foo?query=bar'],
     ['https://example.com', '?query=bar', 'https://example.com/?query=bar'],
     ['https://🔥💀.com', '/🚜', 'https://🔥💀.com/🚜'],
+    ['https://example.com', '/', 'https://example.com/'],
+    ['https://example.com', 'https://example.com', 'https://example.com/'],
     ['https://example.com', 'https://example.com/foo', 'https://example.com/foo'],
 
     # php-mf2 test URIs
@@ -19,7 +21,7 @@ module ExampleURIs
     ['http://example.com', '//cdn.example.org/thing/asset.css', 'http://cdn.example.org/thing/asset.css'],
     ['https://example.com', '//cdn.example.org/thing/asset.css', 'https://cdn.example.org/thing/asset.css'],
     ['http://user:@www.example.com', 'server.php', 'http://user:@www.example.com/server.php'],
-    ['http://example.com', 'http://example.com', 'http://example.com'],
+    ['http://example.com', 'http://example.com', 'http://example.com/'],
     ['http://example.com', '', 'http://example.com/'],
     ['http://example.com/something', '', 'http://example.com/something'],
     ['http://example.com', '#thing', 'http://example.com/#thing'],
