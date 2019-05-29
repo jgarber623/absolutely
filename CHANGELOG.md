@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.0 / 2019-05-28
+
+- Return normalized `relative_uri` in `to_abs` when `relative_uri` is an absolute URL ([81261e9](https://github.com/jgarber623/absolutely/commit/81261e9)).
+
 ## 2.1.0 / 2019-05-01
 
 - Rename `to_absolute_uri` method to `to_abs` ([d14e33f](https://github.com/jgarber623/absolutely/commit/d14e33f)).
