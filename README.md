@@ -67,7 +67,7 @@ Note that if the value passed as `relative` is determined to be an absolute URI,
 ```ruby
 require 'absolutely'
 
-uri = Absolute.to_abs(base: 'https://example.com', relative: 'https://example.com/foo')
+uri = Absolutely.to_abs(base: 'https://example.com', relative: 'https://example.com/foo')
 
 puts uri # => 'https://example.com/foo'
 ```
