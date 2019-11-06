@@ -3,7 +3,7 @@
 ## 3.0.1 / 2019-08-31
 
 - Update Addressable gem ([b257f75](https://github.com/jgarber623/absolutely/commit/b257f75)).
-- Update project Ruby version to 2.4.7 ([a14d29b](https://github.com/jgarber623/absolutely/commit/a14d29b)).
+- Update project Ruby version to 2.4.9 ([a14d29b](https://github.com/jgarber623/absolutely/commit/a14d29b)).
 - Update development dependencies.
 
 ## 3.0.0 / 2019-05-28
