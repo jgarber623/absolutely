@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'absolutely/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = ['>= 2.4', '< 2.7']
+  spec.required_ruby_version = ['>= 2.4', '< 2.8']
 
   spec.name          = 'absolutely'
   spec.version       = Absolutely::VERSION
