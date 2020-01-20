@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 / 2020-01-20
+
+- Expand supported Ruby versions to include 2.7 ([e0273b5](https://github.com/jgarber623/absolutely/commit/e0273b5)).
+
 ## 3.0.1 / 2019-08-31
 
 - Update Addressable gem ([b257f75](https://github.com/jgarber623/absolutely/commit/b257f75)).
