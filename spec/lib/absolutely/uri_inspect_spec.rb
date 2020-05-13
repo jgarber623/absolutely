@@ -1,4 +1,4 @@
-describe Absolutely::URI, :inspect do
+RSpec.describe Absolutely::URI, :inspect do
   let(:options) do
     {
       base:     'https://example.com',
