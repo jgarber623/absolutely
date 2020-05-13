@@ -1,7 +1,7 @@
 RSpec.describe Absolutely::URI, :inspect do
   let(:options) do
     {
-      base:     'https://example.com',
+      base: 'https://example.com',
       relative: '/foo'
     }
   end

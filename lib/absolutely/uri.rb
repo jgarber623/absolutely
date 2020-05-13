@@ -22,7 +22,8 @@ module Absolutely
 
       (base_uri + relative_uri).to_s
     end
-    alias_method :to_absolute_uri, :to_abs
+
+    alias to_absolute_uri to_abs
 
     private
 

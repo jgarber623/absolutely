@@ -2,9 +2,8 @@ require:
   - rubocop-performance
   - rubocop-rspec
 
-Layout/HashAlignment:
-  EnforcedColonStyle: table
-  EnforcedHashRocketStyle: table
+AllCops:
+  NewCops: enable
 
 Layout/LineLength:
   Enabled: false
@@ -15,9 +14,6 @@ Metrics/BlockLength:
 
 Naming/RescuedExceptionsVariableName:
   PreferredName: exception
-
-Style/Alias:
-  EnforcedStyle: prefer_alias_method
 
 Style/Documentation:
   Enabled: false
