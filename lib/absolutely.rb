@@ -20,8 +20,6 @@ module Absolutely
       uri(base: base, relative: relative).to_abs
     end
 
-    alias to_absolute_uri to_abs
-
     # Create an Absolutely::URI from a base URI and a relative path.
     #
     # @param base [String]

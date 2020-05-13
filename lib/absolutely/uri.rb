@@ -53,7 +53,5 @@ module Absolutely
 
       (base_uri + relative_uri).to_s
     end
-
-    alias to_absolute_uri to_abs
   end
 end
