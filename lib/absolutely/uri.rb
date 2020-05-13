@@ -4,8 +4,8 @@ module Absolutely
 
     # Create an Absolutely::URI from a base URI and a relative path.
     #
-    # @param base [String]
-    # @param relative [String]
+    # @param base [String] an absolute URI used to resolve relative path
+    # @param relative [String] a relative path
     # @raise [Absolutely::ArgumentError]
     # @raise [Absolutely::InvalidURIError]
     #
