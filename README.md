@@ -12,13 +12,13 @@
 ## Key Features
 
 - Uses the [Addressable](https://github.com/sporkmonger/addressable) Ruby gem for improved URI parsing.
-- Supports Ruby 2.4 and newer.
+- Supports Ruby 2.5 and newer.
 
 ## Getting Started
 
-Before installing and using Absolutely, you'll want to have [Ruby](https://www.ruby-lang.org) 2.4 (or newer) installed. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
+Before installing and using Absolutely, you'll want to have [Ruby](https://www.ruby-lang.org) 2.5 (or newer) installed. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
-Absolutely is developed using Ruby 2.4.10 and is additionally tested against Ruby 2.5, 2.6, and 2.7 using [Travis CI](https://travis-ci.com/jgarber623/absolutely).
+Absolutely is developed using Ruby 2.5.8 and is additionally tested against Ruby 2.6 and 2.7 using [Travis CI](https://travis-ci.com/jgarber623/absolutely).
 
 ## Installation
 
