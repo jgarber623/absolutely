@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.0.0 / 2020-08-23
+
+- **Breaking change:** Update minimum supported Ruby version to 2.5 (866cec3)
+- Update project Ruby version to 2.5.8 (231653b)
+
 ## 4.0.0 / 2020-05-13
 
 - **Breaking Change:** Remove alias from `to_absolute_uri` to `to_abs` (b4df234)
