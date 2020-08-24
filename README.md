@@ -4,7 +4,7 @@
 
 [![Gem](https://img.shields.io/gem/v/absolutely.svg?style=for-the-badge)](https://rubygems.org/gems/absolutely)
 [![Downloads](https://img.shields.io/gem/dt/absolutely.svg?style=for-the-badge)](https://rubygems.org/gems/absolutely)
-[![Build](https://img.shields.io/travis/com/jgarber623/absolutely/master.svg?style=for-the-badge)](https://travis-ci.com/jgarber623/absolutely)
+[![Build](https://img.shields.io/travis/com/jgarber623/absolutely/main.svg?style=for-the-badge)](https://travis-ci.com/jgarber623/absolutely)
 [![Dependencies](https://img.shields.io/depfu/jgarber623/absolutely.svg?style=for-the-badge)](https://depfu.com/github/jgarber623/absolutely)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/absolutely.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/absolutely.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely/code)
@@ -96,7 +96,7 @@ For convenience, the `base_uri` and `relative_uri` methods return instances of t
 
 ## Contributing
 
-Interested in helping improve Absolutely? Awesome! Your help is greatly appreciated. See [CONTRIBUTING.md](https://github.com/jgarber623/absolutely/blob/master/CONTRIBUTING.md) for details.
+Interested in helping improve Absolutely? Awesome! Your help is greatly appreciated. See [CONTRIBUTING.md](https://github.com/jgarber623/absolutely/blob/main/CONTRIBUTING.md) for details.
 
 ## Acknowledgments
 
