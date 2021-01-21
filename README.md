@@ -4,7 +4,8 @@
 
 [![Gem](https://img.shields.io/gem/v/absolutely.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/absolutely)
 [![Downloads](https://img.shields.io/gem/dt/absolutely.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/absolutely)
-[![Build](https://img.shields.io/circleci/build/github/jgarber623/absolutely?logo=circleci&style=for-the-badge)](https://app.circleci.com/pipelines/github/jgarber623/absolutely)[![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely)
+[![Build](https://img.shields.io/circleci/build/github/jgarber623/absolutely?logo=circleci&style=for-the-badge)](https://app.circleci.com/pipelines/github/jgarber623/absolutely)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely/code)
 
 ## Key Features
