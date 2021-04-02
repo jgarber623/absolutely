@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0 / 2021-04-02
+
+- Expand supported Ruby versions to include 3.0 (c9741de)
+
 ## 5.0.0 / 2020-08-23
 
 - **Breaking change:** Update minimum supported Ruby version to 2.5 (866cec3)
