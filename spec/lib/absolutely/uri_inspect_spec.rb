@@ -7,6 +7,6 @@ RSpec.describe Absolutely::URI, :inspect do
   end
 
   it 'returns a String' do
-    expect(described_class.new(options).inspect).to match(/^#<Absolutely::URI:.* base: ".*", relative: ".*">$/)
+    expect(described_class.new(**options).inspect).to match(/^#<Absolutely::URI:.* base: ".*", relative: ".*">$/)
   end
 end
