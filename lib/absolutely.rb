@@ -7,9 +7,9 @@ require_relative 'absolutely/version'
 require_relative 'absolutely/uri'
 
 module Absolutely
-  class AbsolutelyError < StandardError; end
-  class ArgumentError < AbsolutelyError; end
-  class InvalidURIError < AbsolutelyError; end
+  class Error < StandardError; end
+  class ArgumentError < Error; end
+  class InvalidURIError < Error; end
 
   # Convert a relative path to an absolute URI.
   #
