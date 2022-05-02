@@ -2,10 +2,10 @@
 
 require 'addressable/uri'
 
-require 'absolutely/version'
-require 'absolutely/exceptions'
+require_relative 'absolutely/version'
+require_relative 'absolutely/exceptions'
 
-require 'absolutely/uri'
+require_relative 'absolutely/uri'
 
 module Absolutely
   class << self
