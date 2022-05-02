@@ -6,7 +6,6 @@ gemspec
 gem 'code-scanning-rubocop'
 gem 'pry-byebug'
 gem 'rake'
-gem 'reek'
 gem 'rspec'
 gem 'rspec-github'
 gem 'rubocop'
