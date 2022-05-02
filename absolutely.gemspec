@@ -1,7 +1,7 @@
 require_relative 'lib/absolutely/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.5', '< 4')
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.6', '< 4')
 
   spec.name          = 'absolutely'
   spec.version       = Absolutely::VERSION
