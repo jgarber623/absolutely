@@ -3,11 +3,14 @@
 require 'addressable/uri'
 
 require_relative 'absolutely/version'
-require_relative 'absolutely/exceptions'
 
 require_relative 'absolutely/uri'
 
 module Absolutely
+  class AbsolutelyError < StandardError; end
+  class ArgumentError < AbsolutelyError; end
+  class InvalidURIError < AbsolutelyError; end
+
   # Convert a relative path to an absolute URI.
   #
   # @param base [String] an absolute URI used to resolve relative path
