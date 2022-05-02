@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.0.0 / 2022-05-2
+
+- **Breaking change:** Rename `AbsolutelyError` to `Error` (efcd8fa)
+- Remove Reek (0d73600)
+- Update Addressable dependency constraint (5faefa9)
+- **Breaking change:** Set minimum supported Ruby to 2.6 (b888d5e)
+- Update development Ruby to 2.6.10 (b84d268)
+
 ## 5.1.0 / 2021-04-02
 
 - Expand supported Ruby versions to include 3.0 (c9741de)
