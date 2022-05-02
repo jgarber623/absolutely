@@ -4,20 +4,20 @@
 
 [![Gem](https://img.shields.io/gem/v/absolutely.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/absolutely)
 [![Downloads](https://img.shields.io/gem/dt/absolutely.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/absolutely)
-[![Build](https://img.shields.io/circleci/build/github/jgarber623/absolutely?logo=circleci&style=for-the-badge)](https://app.circleci.com/pipelines/github/jgarber623/absolutely)
+[![Build](https://img.shields.io/github/workflow/status/jgarber623/absolutely/CI?logo=github&style=for-the-badge)](https://github.com/jgarber623/absolutely/actions/workflows/ci.yml)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely/code)
 
 ## Key Features
 
 - Uses the [Addressable](https://github.com/sporkmonger/addressable) Ruby gem for improved URI parsing.
-- Supports Ruby 2.5 and newer.
+- Supports Ruby 2.6 and newer.
 
 ## Getting Started
 
-Before installing and using Absolutely, you'll want to have [Ruby](https://www.ruby-lang.org) 2.5 (or newer) installed. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
+Before installing and using Absolutely, you'll want to have [Ruby](https://www.ruby-lang.org) 2.6 (or newer) installed. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
-Absolutely is developed using Ruby 2.5.8 and is additionally tested against Ruby 2.6, 2.7, and 3.0 using [CircleCI](https://app.circleci.com/pipelines/github/jgarber623/absolutely).
+Absolutely is developed using Ruby 2.6.10 and is additionally tested against Ruby 2.7, 3.0, and 3.1 using [CircleCI](https://app.circleci.com/pipelines/github/jgarber623/absolutely).
 
 ## Installation
 
