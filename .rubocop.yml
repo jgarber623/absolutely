@@ -1,2 +1,7 @@
 inherit_from:
   - https://raw.githubusercontent.com/jgarber623/rubocop-configs/main/.rubocop.gem.yml
+
+# Checks the length of lines in the source code.
+Layout/LineLength:
+  Exclude:
+    - spec/**/*_spec.rb
