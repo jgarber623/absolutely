@@ -1,6 +1,6 @@
 # Changelog
 
-## 6.0.0 / 2022-05-2
+## 6.0.0 / 2022-05-02
 
 - **Breaking change:** Rename `AbsolutelyError` to `Error` (efcd8fa)
 - Remove Reek (0d73600)
