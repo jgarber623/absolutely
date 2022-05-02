@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Absolutely::URI do
   let(:base_uri) { 'https://example.com' }
   let(:relative_uri) { '/foo' }

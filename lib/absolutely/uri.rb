@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Absolutely
   class URI
     attr_reader :base, :relative

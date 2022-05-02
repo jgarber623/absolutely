@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ExampleURIs
   URI_TESTS = [
     # Absolutely test URIs

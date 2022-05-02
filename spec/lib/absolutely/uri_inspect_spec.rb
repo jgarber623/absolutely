@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Absolutely::URI, :inspect do
   let(:options) do
     {
