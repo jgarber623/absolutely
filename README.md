@@ -4,7 +4,7 @@
 
 [![Gem](https://img.shields.io/gem/v/absolutely.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/absolutely)
 [![Downloads](https://img.shields.io/gem/dt/absolutely.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/absolutely)
-[![Build](https://img.shields.io/github/workflow/status/jgarber623/absolutely/CI?logo=github&style=for-the-badge)](https://github.com/jgarber623/absolutely/actions/workflows/ci.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/jgarber623/absolutely/ci.yml?branch=main&logo=github&style=for-the-badge)](https://github.com/jgarber623/absolutely/actions/workflows/ci.yml)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/absolutely.svg?logo=code-climate&style=for-the-badge)](https://codeclimate.com/github/jgarber623/absolutely/code)
 
